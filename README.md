@@ -1,7 +1,7 @@
 php-mobile-detector
 ===================
 
-Detect the Mobile Phones Using the PHP
+<h3><u><i>Detect the Mobile Phones Using the PHP</i></u></h3>
 
 
 Usage
