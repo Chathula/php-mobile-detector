@@ -10,7 +10,9 @@ Usage
 
 <h4>Include File</h4>
 
-```php<?php include 'mobile.php'; ?> ```
+```php
+<?php include 'mobile.php'; ?> 
+```
 
 
 
