@@ -10,25 +10,24 @@ Usage
 
 <h4>Include File</h4>
 
-<code><?php 
-include 'mobile.php'; ?> </code>
+<code><?php include 'mobile.php'; ?> </code>
 
 
 
 <h4>Detect Any Mobile Device</h4>
 
 
-<code><?php <br/>
+```php
+<?php 
 include 'mobile.php';
-<br/>
 $mobile = new Mobile();<br/>
-<br/>
-if ($mobile->isMobile) {<br/>
- &nbsp;header("Location: m.yoursite.com");
-<br/>}
-<br/>
-?></code>
 
+if ($mobile->isMobile) {
+ header("Location: m.yoursite.com");
+}
+
+?>
+```
 
 
 <h4>Detect an Android Device</h4>
