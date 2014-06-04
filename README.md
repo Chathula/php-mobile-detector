@@ -10,7 +10,7 @@ Usage
 
 <h4>Include File</h4>
 
-<code><?php include 'mobile.php'; ?> </code>
+```php<?php include 'mobile.php'; ?> ```
 
 
 
@@ -32,61 +32,67 @@ if ($mobile->isMobile) {
 
 <h4>Detect an Android Device</h4>
 
-<code>
-<?php <br/>
-include 'mobile.php';<br/>
-$mobile = new Mobile();<br/>
-if ($mobile->isAndroid) {<br/>
- &nbsp;header("Location: android.yoursite.com");<br/>
+```php
+<?php
+include 'mobile.php';
+$mobile = new Mobile();
+
+if ($mobile->isAndroid) {
+ header("Location: android.yoursite.com");
 }
-<br/>?>
-</code>
+
+?>
+```
 
 
 
 <h4>Detect an iPhone Device</h4>
 
-<code>
-<?php <br/>
-include 'mobile.php';<br/>
-$mobile = new Mobile();<br/>
-if ($mobile->isIphone) {<br/>
- &nbsp;header("Location: iphone.yoursite.com");<br/>
-}<br/>
+```php
+<?php
+include 'mobile.php';
+$mobile = new Mobile();
+
+if ($mobile->isIphone) {
+ header("Location: iphone.yoursite.com");
+}
+
 ?>
-</code>
+```
 
 
 
 
 <h4>Other Detectable Devices</h4>
 
-<code>
-Blackberry = isBlackberry;<br/>
-Ipod = isIpod; <br/>
-Ipad = isIpad; <br/>
-Opera Mini = isOperaMini;<br/> 
-Palm = isPalm; <br/>
-Windows = isWindows;<br/> 
+```php
+Blackberry = isBlackberry;
+Ipod = isIpod;
+Ipad = isIpad;
+Opera Mini = isOperaMini; 
+Palm = isPalm;
+Windows = isWindows; 
 Other = isOther; 
-</code>
+```
 
 
 
 
 <h4>Detect an Android Device and Any Other Device at once</h4>
 
-<code>
-<?php <br/>
-include 'mobile.php';<br/>
-$mobile = new Mobile();<br/>
-if ($mobile->isAndroid) {<br/>
- &nbsp;header("Location: android.yoursite.com");<br/>
-} elseif ($mobile->isMobile) {<br/>
- &nbsp;header("Location: m.yoursite.com");<br/>
-}<br/>
+```php
+<?php
+include 'mobile.php';
+$mobile = new Mobile();
+
+if ($mobile->isAndroid) {
+ header("Location: android.yoursite.com");
+} elseif ($mobile->isMobile) {
+ header("Location: m.yoursite.com");
+}
+
 ?>
-</code>
+```
 
 
 
