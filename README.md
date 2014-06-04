@@ -95,13 +95,13 @@ Screenshoots
 --
 
 <h4>Not Detected</h4>
-<img src="http://anonmgur.com/up/1df7a345ef7f4ccb136965ca95d894ff.png" />
+<img src="http://i.imgur.com/KvsuXTH.png" />
 
 <h4>Detected an Android Device</h4>
-<img src="http://anonmgur.com/up/ff074fe07bfaa606d846adccb0bb54c6.png" />
+<img src="http://i.imgur.com/ncT5Qng.png" />
 
 <h4>Detected an iPhone Device</h4>
-<img src="http://anonmgur.com/up/f8260d7d9342b2918001a6818b343fbe.png" />
+<img src="http://i.imgur.com/AxH1gGE.png" />
 
 <h4>Detected an iPad Device</h4>
-<img src="http://anonmgur.com/up/313aabcc2606bb86d5889abe4716c0c4.png" />
+<img src="http://i.imgur.com/Jth9QVU.png" />
