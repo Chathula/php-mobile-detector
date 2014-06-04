@@ -20,7 +20,7 @@ Usage
 ```php
 <?php 
 include 'mobile.php';
-$mobile = new Mobile();<br/>
+$mobile = new Mobile();
 
 if ($mobile->isMobile) {
  header("Location: m.yoursite.com");
