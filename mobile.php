@@ -1,11 +1,10 @@
 <?php  
 
-/* 
-
-Coded By: Chathula Sampath Perera
-Facebook: http//facebook.com/c.sampathperera
-Skype: chathula.sampath
-
+/**
+	 * @author Chathula Sampath <Schathula@gmail.com>
+	 * @copyright 2014 || SLTUTS
+	 * @license http://www.php.net/license/3_01.txt PHP License 3.01
+	 * @link http://sltuts.com || http://fb.com/c.sampathperera || http://twitter.com/ChathulaC
 */
 
 class Mobile {
